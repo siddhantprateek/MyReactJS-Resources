@@ -3,8 +3,8 @@
 
 - [x] 👉 1. Monster Search
 - [x] 👉 2. Counter App
-- [ ] 👉 3. Random Hex Color Generator
-- [ ] 👉 4. Random Number Generator
+- [x] 👉 3. Random Hex Color Generator
+- [x] 👉 4. Random Number Generator
 - [ ] 👉 5. Modal PopUp
 - [ ] 👉 6. Palindrom Checker
 - [ ] 👉 7. Vowel Counter App
