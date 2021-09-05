@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(239.93deg, rgba(0, 240, 255, 0.2) 2.46%, rgba(112, 0, 255, 0.2) 100%), linear-gradient(118deg, rgba(255, 0, 0, 0.2) 1.54%, rgba(0, 255, 133, 0.2) 100%), #5A75FF;;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    width: 30rem;
+    height: 35rem;
+    margin: 0 auto;
+    background: rgba(240, 240, 240, 0.29);
+    backdrop-filter: blur(22px);
+    border-radius: 14px;
+    box-shadow: 0px 4px 61px 26px rgba(0, 0, 0, 0.25);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.result {
+    color: black;
+    /* background-color: wheat; */
+    height: 4.5rem;
+    width: 70%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.clear{
+    width: 20%;
+    height: 4.5rem;
+    background-color: #ff304f;
+    padding: 1rem;
+    position: absolute;
+    right: 2rem;
+    top: 1.6rem;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.6rem;
+    transition: 0.15s;
+    border-radius: 10px;
+}
+
+.clear:hover{
+    transform: scale(1.10);
+    background-color: #5A75FF;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    font-size: 1.6rem;
+}
+
+.keys li{
+    list-style: none;
+    width: 5rem;
+    /* background-color: white; */
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+
+.keys li:hover{
+    background-color: #9c1de7;
+    color: whitesmoke;
+    transform: scale(1.15);
+}
+
+.keys .equals {
+    background-color: #43dde6;
+    color: black;
+}
+
+
