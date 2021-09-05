@@ -5,7 +5,7 @@
 - [x] 👉 2. Counter App
 - [x] 👉 3. Random Hex Color Generator
 - [x] 👉 4. Random Number Generator
-- [ ] 👉 5. Modal PopUp
+- [x] 👉 5. Modal PopUp
 - [ ] 👉 6. Palindrom Checker
 - [ ] 👉 7. Vowel Counter App
 - [ ] 👉 8. Click to Copy
