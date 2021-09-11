@@ -6,9 +6,9 @@
 - [x] 👉 3. Random Hex Color Generator
 - [x] 👉 4. Random Number Generator
 - [x] 👉 5. Modal PopUp
-- [ ] 👉 6. Palindrom Checker
-- [ ] 👉 7. Vowel Counter App
-- [ ] 👉 8. Click to Copy
+- [x] 👉 6. Palindrom Checker
+- [x] 👉 7. Vowel Counter App
+- [x] 👉 8. Click to Copy
 - [ ] 👉 9. Google Drive Download Link Generator
 - [ ] 👉 10. Input Field Character Count
 - [ ] 👉 11. Internet Connect Status Detector
