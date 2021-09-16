@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, rgb(44, 62, 80), rgb(253, 116, 108));
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: aquamarine;
+    padding: 2rem 1rem;
+    background: rgba(240, 240, 240, 0.29);
+    backdrop-filter: blur(22px);
+    border-radius: 6px;
+}
+
+h2 {
+    padding-bottom: 1rem;
+}
+
+h6 {
+    font-weight: 400;
+}
+
+.email {
+    width: 100%;
+    padding: .4rem .6rem;
+    font-size: .8rem;
+    border: none;
+    outline: none;
+    background: rgba(240, 240, 240, 0.29);
+    backdrop-filter: blur(22px);
+    border-radius: 5px;
+}
+
+.password {
+    width: 100%;
+    padding: .4rem .6rem;
+    font-size: .8rem;
+    border: none;
+    outline: none;
+    background: rgba(240, 240, 240, 0.29);
+    backdrop-filter: blur(22px);
+    border-radius: 5px;
+}
+
+
+
+
+
+label {
+    font-size: .6rem;
+}
+
+.checkbox {
+    border: none;
+    outline: none;
+}
+
+
+.submit-btn {
+    width: 100%;
+    padding: .2rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #43dde6;
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #364f6b;
+    color: white;
+}
+
+.google-sign {
+    width: 100%;
+    padding: .2rem;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #f85959;
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.google-sign:hover {
+    background-color: #ff304f;
+    color: white;
+}
