@@ -9,8 +9,8 @@
 - [x] 👉 6. Palindrom Checker
 - [x] 👉 7. Vowel Counter App
 - [x] 👉 8. Click to Copy
-- [ ] 👉 9. Google Drive Download Link Generator
-- [ ] 👉 10. Input Field Character Count
+- [x] 👉 9. Google Drive Download Link Generator
+- [x] 👉 10. Input Field Character Count
 - [ ] 👉 11. Internet Connect Status Detector
 - [ ] 👉 12. Quiz App
 - [ ] 👉 13. API
