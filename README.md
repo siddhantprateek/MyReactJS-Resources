@@ -102,4 +102,7 @@
 - [ ] 👉 99.
 - [ ] 👉 100.
 
+## Additional features
+- [x] 👉 101. snal scroll
+
 
