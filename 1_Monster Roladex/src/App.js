@@ -15,7 +15,8 @@ class App extends Component{
   }
 
   componentDidMount(){
-    fetch('https://jsonplaceholder.typicode.com/users')
+    // fetch('https://jsonplaceholder.typicode.com/users')
+    fetch('https://retoolapi.dev/Fpos5w/data')
       .then(response => response.json())
       .then(users => this.setState({users: users}))
   }
@@ -27,6 +28,8 @@ class App extends Component{
 
   render(){
     const {users, searchField} = this.state;
+    
+    // checks the api consists of user with the name
     const filteredUsers = users.filter( user => 
       user.name.toLowerCase().includes(searchField.toLowerCase())
       );
@@ -34,9 +37,14 @@ class App extends Component{
     return(
       <div className="App">
         <h1>Our Customers</h1>
+
+        {/* Search field */}
         <SearchBox 
           placeholder='Search User'
-          handleChange={this.handleChange}/>
+          handleChange={this.handleChange}
+          />
+          
+        {/* Monster Cards */}
         <CardList users={filteredUsers}/>
       </div>
     );
