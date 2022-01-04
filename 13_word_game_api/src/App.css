@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.level-selector {
+    background-color: #ff304f;
+}
+
+.question-area{
+    background-color: #775ada;
+
+}
+
+.question-box {
+    background-color: #278ea5;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 40px;
+}
