@@ -11,11 +11,11 @@
 - [x] 👉 8. Click to Copy
 - [x] 👉 9. Google Drive Download Link Generator
 - [x] 👉 10. Input Field Character Count
-- [ ] 👉 11. Internet Connect Status Detector
-- [ ] 👉 12. Quiz App
-- [ ] 👉 13. API
-- [ ] 👉 14. HTTP Request Project
-- [ ] 👉 15. 
+- [x] 👉 11. Internet Connect Status Detector
+- [x] 👉 12. Crypto - Dashboard Using API
+- [x] 👉 13. Word Game using API
+- [x] 👉 14. HTTP Request Project
+- [x] 👉 15. Weather Api 
 - [ ] 👉 16.
 - [ ] 👉 17.
 - [ ] 👉 18.
