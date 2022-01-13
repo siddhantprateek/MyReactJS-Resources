@@ -14,7 +14,7 @@
 - [x] 👉 11. Internet Connect Status Detector
 - [x] 👉 12. Crypto - Dashboard Using API
 - [x] 👉 13. Word Game using API
-- [x] 👉 14. HTTP Request Project
+- [x] 👉 14. 
 - [x] 👉 15. Weather Api 
 - [ ] 👉 16.
 - [ ] 👉 17.
